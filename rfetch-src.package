@@ -1,6 +1,6 @@
 ---
 name: rfetch-src
 version_id: "1.0"
-command: cargo build --release & ln rfetch /usr/bin/rfetch
+command: ../install.sh
 path: rfetch-src.package
 print_command_output: true
